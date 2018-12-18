@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Christmas Project", "Christmas Project\Christmas Project\Christmas Project.shproj", "{62AC46F3-4B72-4EFB-978B-A1091307BD9D}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C7112EF-64FE-4F8F-8D4E-6DB6139B1FA6}
+	EndGlobalSection
+EndGlobal
