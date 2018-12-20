@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XmasPro.MainScreen">
+    
+    <StackLayout BackgroundColor="AntiqueWhite">
+        
+        <!-- Home button -->
+        <Button x:Name="homeButtton" Text="Home" BackgroundColor="Green"
+             HorizontalOptions="End"
+             VerticalOptions="Start" 
+             Clicked="HomeButtton_Clicked"/>
+        
+        <!-- Heading -->
+        <Label TextColor="Black" FontSize="Large" Text="Please choose Truth or Dare" 
+            HorizontalOptions="Center"
+            VerticalOptions="Start" />
+        
+        <!-- Truth Button -->
+        <Button x:Name="truthButton" Text="Truth" BackgroundColor="CadetBlue"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="TruthButton_Clicked" />
+        
+        <!-- Dare Button -->
+        <Button x:Name="dareButton" Text="Dare" BackgroundColor="IndianRed"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="DareButton_Clicked" />
+        
+        <!-- Displays current player's name -->
+
+        <ListView x:Name="playersListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+    </StackLayout>
+    
+</ContentPage>

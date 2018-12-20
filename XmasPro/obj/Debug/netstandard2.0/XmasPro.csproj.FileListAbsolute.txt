@@ -1,0 +1,16 @@
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\bin\Debug\netstandard2.0\XmasPro.deps.json
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\bin\Debug\netstandard2.0\XmasPro.dll
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\bin\Debug\netstandard2.0\XmasPro.pdb
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\XmasPro.csproj.CoreCompileInputs.cache
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\XmasPro.AssemblyInfoInputs.cache
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\XmasPro.AssemblyInfo.cs
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\XmasPro.dll
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\XmasPro.pdb
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\MainScreen.xaml.g.cs
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\TaskScreen.xaml.g.cs
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\ForfeitScreen.xaml.g.cs
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\DareScreen.xaml.g.cs
+C:\Users\brian\source\repos\XmasPro\XmasPro\XmasPro\obj\Debug\netstandard2.0\XmasPro.csprojAssemblyReference.cache

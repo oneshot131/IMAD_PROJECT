@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XmasPro.DareScreen">
+
+    <StackLayout BackgroundColor="AntiqueWhite">
+
+        <!-- Home button -->
+        <Button x:Name="homeButtton" Text="Home" BackgroundColor="Green"
+             HorizontalOptions="End"
+             VerticalOptions="Start" 
+             Clicked="HomeButtton_Clicked"/>
+
+        <!-- The Dare option -->
+        <Label TextColor="Black" FontSize="Large" Text="You have choosen Dare " 
+            HorizontalOptions="Center"
+            VerticalOptions="Start" />
+
+        <!-- The Dare itself -->
+        <Label TextColor="Black" x:Name="dare"/>
+
+        <!-- asking the user if the task has been completed so the game can moce forward. -->
+        <Label TextColor="Black" FontSize="Large" Text="Has the task been completed?" 
+            HorizontalOptions="Center"
+            VerticalOptions="Start" />
+
+        <!-- Answers to the question -->
+        <Button x:Name="yes" Text="Yes!" BackgroundColor="LightGreen"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="Yes_Clicked" />
+
+        <Button x:Name="no" Text="NO!" BackgroundColor="DarkRed"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="No_Clicked" />
+
+    </StackLayout>
+</ContentPage>

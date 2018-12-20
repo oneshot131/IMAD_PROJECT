@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XmasPro"
+             x:Class="XmasPro.MainPage">
+
+    <StackLayout Margin="10,10,10,0" BackgroundColor="AntiqueWhite" >
+
+        <!-- Exit button -->
+        <Button x:Name="exitButtton" Text="Exit" BackgroundColor="Red"
+            HorizontalOptions="End"
+            VerticalOptions="Start" 
+            Clicked="ExitButtton_Clicked"/>
+
+        <!-- Heading -->
+        <Label TextColor="Black" FontSize="Large" Text="Welcome to Truth or Dare" 
+            HorizontalOptions="Center"
+            VerticalOptions="Start" />
+
+        <!-- Getting user to input names of the players in game, saving to memory -->
+        <Entry x:Name="namePlayer" Placeholder="Please enter the names of your players (in order of how they play)"
+            HorizontalOptions="Center" />
+
+        <!-- Getting user to press enter when having the names. -->
+        <Button x:Name="enter" Text="Enter" 
+                HorizontalOptions="Center" 
+                Clicked="Enter_Clicked"/>
+
+        <!-- Button to start the game -->
+        <Button x:Name="startGame" Text="Start" 
+                HorizontalOptions="Center" 
+                Clicked="StartGame_Clicked"/>
+
+        <ListView x:Name="playersListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XmasPro.ForfeitScreen">
+
+    <StackLayout BackgroundColor="AntiqueWhite">
+        
+        <!-- Home button -->
+        <Button x:Name="homeButtton" Text="Home" BackgroundColor="Green"
+             HorizontalOptions="End"
+             VerticalOptions="Start" 
+             Clicked="HomeButtton_Clicked"/>
+
+        <!-- The Forfeit text -->
+        <Label TextColor="Black" FontSize="Large" Text="You have not completed the task given. " 
+            HorizontalOptions="Center"
+            VerticalOptions="Start" />
+        
+        <Label TextColor="Black" FontSize="Large" Text="Below is your forfeit task. " 
+            HorizontalOptions="Center"
+            VerticalOptions="Start" />
+        
+        <!-- Displays the forfeit -->
+        
+        <!-- Putting the user back to main screen to continue the game-->
+        <Button x:Name="mainScreenButton" Text="Back" 
+                Clicked="MainScreenButton_Clicked"/>
+
+
+    </StackLayout>
+</ContentPage>
